@@ -19,8 +19,8 @@ public class Bildbearbeiter implements ActionListener {
     private Bildflaeche bildflaeche;
     private JLabel dateinameLabel, statusLabel;
     private Farbbild aktuellesBild;
-    private static final String VERSION = "Division Nr. 546";
-    private static final String VERSION2 = "Task failed sucessfully";
+    private static final String VERSION = "Hier ist der Code geändert";
+    private static final String VERSION2 = "Hier auch";
 
     public Bildbearbeiter() {
         erzeugeFenster();
@@ -28,8 +28,8 @@ public class Bildbearbeiter implements ActionListener {
     }
     
     private void zeigeInfo(){
-        JOptionPane.showMessageDialog(fenster,"Gernerische Division\n" + VERSION,
-                "Divisionsübersicht",
+        JOptionPane.showMessageDialog(fenster,"Und hier\n" + VERSION,
+                "Hier auch",
                 JOptionPane.INFORMATION_MESSAGE);
         
     }
